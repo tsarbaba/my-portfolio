@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Портфолио</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>Меню</h2>
+    <ul>
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">Обо мне</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <div class="hero-image">
+      <img src="images/hero.jpg" alt="Главное изображение">
+    </div>
+
+    <div class="gallery">
+      <a href="project1.html" class="project">
+        <img src="images/project1.jpg" alt="Проект 1">
+        <h3>Проект 1</h3>
+      </a>
+      <a href="project2.html" class="project">
+        <img src="images/project2.jpg" alt="Проект 2">
+        <h3>Проект 2</h3>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
